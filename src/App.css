@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section{
+  flex-grow: 1;
+}
+header{
+  padding:  40px 0;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+}
+header nav ul a{
+  text-decoration: none;
+  font-weight:  bold;
+  color: rgb(61, 61, 61);
+  padding: 10px 20px;
+  transition: .3s;
+  border-radius: 2rem;
+}
+header nav ul a:hover{
+  color: aqua;
+}
+header nav ul a.active{
+  color:aliceblue;
+  background: black;
+  
+  
+}
